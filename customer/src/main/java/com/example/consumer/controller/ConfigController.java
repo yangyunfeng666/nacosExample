@@ -10,6 +10,7 @@ import com.alibaba.nacos.api.exception.NacosException;
 import com.alibaba.nacos.api.naming.NamingService;
 import com.alibaba.nacos.api.naming.pojo.Instance;
 import com.alibaba.nacos.spring.context.annotation.config.EnableNacosConfig;
+import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import com.example.common.demo.service.AnnotationService;
 import com.example.common.demo.service.MinorityService;
 import org.springframework.context.annotation.PropertySource;

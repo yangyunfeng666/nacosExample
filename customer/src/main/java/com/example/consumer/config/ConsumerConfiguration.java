@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @EnableDubbo
-//@NacosPropertySource(dataId = "consumer.properties",groupId = "ff")
+@NacosPropertySource(dataId = "consumer.properties",groupId = "ff",autoRefreshed = true)
 @PropertySource("classpath:/dubbo-consumer.properties")
 @Configuration
 public class ConsumerConfiguration {
